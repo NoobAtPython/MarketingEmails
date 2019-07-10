@@ -25,7 +25,7 @@ EmailQuery3 = """
                   from sso.dbo.profile_table kap with (NOLOCK)
                   inner join sso.dbo.user_registration uia with (NOLOCK) on uia.userid = kap.UserID
                   inner join sso.dbo.applications a with (NOLOCK) on a.applicationid = uia.applicationid 
-                  left join sso.dbo.KA_UserEmailUnsubscription unsub with (NOLOCK) on unsub.userid = kap.userid
+                  left join sso.dbo.email_unsubs unsub unsub with (NOLOCK) on unsub.userid = kap.userid
                   where productid IN
                   (
                    '252',
