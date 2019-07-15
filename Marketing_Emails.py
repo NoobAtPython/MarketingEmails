@@ -63,7 +63,7 @@ EmailQuery5 =   """
 
 # Lists created for filename and email query variables. These are looped through to save each query into its own CSV file.
 # Folder path is the location to save CSVs.
-fileNames = ['Email_List1', 'Email_List2', 'Email_List3', 'Email_List4', 'Email_List5]
+fileNames = ['Email_List1', 'Email_List2', 'Email_List3', 'Email_List4', 'Email_List5']
 emailQueries = [EmailQuery1, EmailQuery2, EmailQuery3, EmailQuery4, EmailQuery5]
 folderPath = "C:/Users/BReyes/Desktop/Bryans_Folder/"
 
